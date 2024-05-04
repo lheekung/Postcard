@@ -1,0 +1,40 @@
+
+.card .imgBox img {
+	min-width: 250px;
+	max-height: 400px;
+}
+
+.card:hover .imgBox {
+	transform: rotateY(-135deg);
+}
+
+.card:hover .bark {
+	opacity: 1;
+	transition: .6s;
+  box-shadow: 300px 200px 100px rgba(0, 0, 0, .4) inset;
+}
+
+.card .details {
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	padding: 0 0 0 10px;
+	z-index: -1;
+	margin-top: 70px;
+}
+
+.card .details p {
+	font-size: 15px;
+	line-height: 5px;
+	transform: rotate(-10deg);
+	padding: 0 0 0 20px;
+}
+
+.card .details h4 {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
