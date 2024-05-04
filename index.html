@@ -4,7 +4,8 @@
   <style>
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
-
+@media (hover: none) {
+	
 body {
 	font-family: 'Indie Flower', cursive !important;
   background: #FDE3A7; /*CAPE HONEY*/
@@ -40,12 +41,10 @@ h4 {
 	transition: 1s;	
 }
 
-@media (hover: none) {
 .card:hover {
 	transform: translate(-50%,-50%) perspective(2000px) rotate(15deg) scale(1.2);
 	box-shadow: inset 20px 0 50px rgba(0,0,0,.5), 0 10px 100px rgba(0,0,0,.5);
  }
-}
 
 .card:before {
 	content:'';
@@ -93,7 +92,6 @@ h4 {
 	max-height: 400px;
 }
 	  
-@media (hover: none) {
 .card:hover .imgBox {
 	transform: rotateY(-135deg);
  }
@@ -102,7 +100,6 @@ h4 {
 	opacity: 1;
 	transition: .6s;
   box-shadow: 300px 200px 100px rgba(0, 0, 0, .4) inset;
-}
 }
 	  
 .card .details {
@@ -129,7 +126,7 @@ h4 {
 .text-right {
 	text-align: right;
 }
-	  
+}	  
 </style>
  </head>
 <body>
