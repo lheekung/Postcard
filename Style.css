@@ -1,4 +1,4 @@
-
+<style>
 .card .imgBox img {
 	min-width: 250px;
 	max-height: 400px;
@@ -38,3 +38,4 @@
 .text-right {
 	text-align: right;
 }
+</style>
